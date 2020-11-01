@@ -54,16 +54,6 @@ class _MyChatState extends State<MyChat> {
         children: <Widget>[
             
 
-
-        /*
-        FlatButton(child: Text("First"),
-        onPressed: (){
-         var ss = fs.collection("chat").snapshots(); 
-          print(ss);
-          print("clicked");
-        },
-        ),
-        */
               Container(width: 150,
               height: 30,
               alignment: Alignment.bottomCenter,
@@ -78,7 +68,6 @@ class _MyChatState extends State<MyChat> {
               ),
               ),
                SizedBox(height: 20,),
-             // Text(webdata ?? "Waiting for your command..."),
 
               StreamBuilder<QuerySnapshot>(builder: (context, snapshot ){
                   
